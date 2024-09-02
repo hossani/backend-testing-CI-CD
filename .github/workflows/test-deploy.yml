@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '2O'
+          node-version: 2O
       - name: install dependencies
         run: npm ci
       - name: run unit testing
@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '2O'
+          node-version: 2O
       - name: install dependencies
         run: npm ci
       - name: deploy REST API
